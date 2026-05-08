@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "package": "net.wb.noao.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "DisableAOMixin"
+    ],
+    "client": [],
+    "server": [],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

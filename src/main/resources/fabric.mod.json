@@ -1,0 +1,25 @@
+{
+    "schemaVersion": 1,
+    "id": "no-ao",
+    "version": "${mod_version}",
+    "name": "NoAO",
+    "description": "Disables Ambient Occlusion (AO) on all block rendering. Removes the dark shading on block edges and corners baked into vertex colors during chunk mesh building.",
+    "authors": [
+        "wb"
+    ],
+    "contact": {},
+    "license": "MIT",
+    "environment": "client",
+    "entrypoints": {
+        "main": [
+            "net.wb.noao.NoAO"
+        ]
+    },
+    "mixins": [
+        "no-ao.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.0",
+        "minecraft": "*"
+    }
+}
