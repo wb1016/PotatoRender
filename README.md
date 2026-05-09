@@ -1,4 +1,4 @@
-# PotatoRenderer
+# PotatoRender
 a mod that removes ambient occulusion and adds resolution adjustment feature.
 this can achieve higher FPS with visual tradeoffs.
 supports both OpenGL and Vulkan renderer.
