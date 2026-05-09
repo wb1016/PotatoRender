@@ -1,22 +1,22 @@
 {
     "schemaVersion": 1,
-    "id": "no-ao",
+    "id": "potato-render",
     "version": "${mod_version}",
-    "name": "NoAO",
+    "name": "PotatoRender",
     "description": "Disables Ambient Occlusion (AO) on all block rendering. Removes the dark shading on block edges and corners baked into vertex colors during chunk mesh building.",
     "authors": [
-        "wb"
+        "Blue_ON"
     ],
     "contact": {},
     "license": "MIT",
     "environment": "client",
     "entrypoints": {
         "main": [
-            "net.wb.noao.NoAO"
+            "dev.blueon.potatorender.PotatoRender"
         ]
     },
     "mixins": [
-        "no-ao.mixins.json"
+        "potatorender.mixins.json"
     ],
     "depends": {
         "fabricloader": ">=0.16.0",

@@ -1,4 +1,4 @@
-package net.wb.noao.mixin;
+package dev.blueon.potatorender.mixin;
 
 import net.minecraft.client.renderer.block.ModelBlockRenderer;
 import org.spongepowered.asm.mixin.Mixin;
