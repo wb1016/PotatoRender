@@ -1,6 +1,6 @@
 // Resolution scaling implementation for PotatoRender.
 // Blit approach referenced from RenderScale (blitAndBlendToTexture for MC >= 26):
-//   Source: https://github.com/RenderCore-Mod/RenderScale (src/main/java/dev/zelo/renderscale/RenderScale.java)
+//   Source: https://github.com/Zolo101/RenderScale (src/main/java/dev/zelo/renderscale/RenderScale.java)
 //   Uses RenderPipelines.TRACY_BLIT (core/screenquad + core/blit_screen shaders) which is
 //   backend-agnostic and works with both OpenGL and Vulkan renderers in MC 26.2.
 package dev.blueon.potatorender;
