@@ -1,14 +1,17 @@
 {
     "schemaVersion": 1,
     "id": "potato-render",
-    "version": "${mod_version}",
+    "version": "${version}",
     "name": "PotatoRender",
-    "description": "Disables Ambient Occlusion (AO) on all block rendering. Removes the dark shading on block edges and corners baked into vertex colors during chunk mesh building.",
+    "description": "a mod turns your renderer to potato to increase FPS. supports both OpenGL and Vulkan.",
     "authors": [
         "Blue_ON"
     ],
-    "contact": {},
-    "license": "MIT",
+    "contact": {
+        "sources": "https://github.com/wb1016/PotatoRender"
+    },
+    "license": "Apache-2.0",
+    "icon": "assets/potatorender/potatorender.png",
     "environment": "client",
     "entrypoints": {
         "main": [
@@ -19,7 +22,17 @@
         "potatorender.mixins.json"
     ],
     "depends": {
-        "fabricloader": ">=0.16.0",
+        "fabric-api": "*",
+        "fabricloader": ">=${loader_version}",
         "minecraft": "*"
+    },
+    "custom": {
+        "modmenu": {
+            "links": {
+                "modmenu.donate": "https://github.com/sponsors/wb1016",
+                "modmenu.github_releases": "https://github.com/wb1016/PotatoRender/releases",
+                "modmenu.modrinth": "https://modrinth.com/mod/potatorender"
+            }
+        }
     }
 }
