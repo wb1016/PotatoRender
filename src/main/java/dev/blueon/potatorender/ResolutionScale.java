@@ -136,7 +136,7 @@ public class ResolutionScale {
                     "InSampler",
                     scaledTarget.getColorTextureView(),
                     RenderSystem.getSamplerCache().getClampToEdge(filter));
-            renderPass.draw(0, 3);
+            renderPass.draw(3, 1, 0, 0);
         }
     }
 
